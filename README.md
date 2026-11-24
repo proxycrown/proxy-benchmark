@@ -1,5 +1,7 @@
 # Proxy class benchmark — what 20 real targets do to each proxy type
 
+> Public mirror. The maintained copy lives at [proxycrown/proxycrown/benchmark](https://github.com/proxycrown/proxycrown/tree/main/benchmark).
+
 132,020 requests from one harness, four proxy classes, 20 fixed targets. We publish the cached verdicts, the request counts and the Wilson 95% intervals so anyone can recompute the table below.
 
 This exists because "residential works, datacenter gets blocked" is folklore in this industry and almost nobody measures it per target. The numbers are less flattering than the marketing in both directions.
