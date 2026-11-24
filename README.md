@@ -10,26 +10,26 @@ This exists because "residential works, datacenter gets blocked" is folklore in 
 
 | Target | Kind | Direct | ISP | Residential | Mobile |
 |---|---|---|---|---|---|
-| `control_example` | control | 100.0% (971/971) | 100.0% (434/434) | 100.0% (140/140) | 99.3% (295/297) |
-| `control_wikipedia` | control | 100.0% (971/971) | 100.0% (434/434) | 99.3% (139/140) | 98.6% (291/295) |
-| `control_httpbin` | control | 100.0% (971/971) | 100.0% (434/434) | 100.0% (140/140) | 99.7% (296/297) |
-| `amazon_pdp` | commerce | 94.3% (916/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/296) |
-| `walmart_search` | commerce | 100.0% (971/971) | 100.0% (434/434) | 100.0% (140/140) | 99.3% (295/297) |
-| `etsy_search` | commerce | 0.0% (0/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/298) |
-| `nike_list` | commerce | 100.0% (971/971) | 99.8% (433/434) | 100.0% (140/140) | 99.3% (293/295) |
-| `zillow_search` | data | 0.0% (0/971) | 0.2% (1/434) | 94.3% (132/140) | 57.8% (171/296) |
-| `idealista_search` | geo | 0.0% (0/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/296) |
-| `google_serp` | geo | 99.8% (969/971) | 100.0% (434/434) | 100.0% (140/140) | 94.9% (282/297) |
-| `booking_search` | geo | 0.0% (0/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/295) |
-| `reddit_thread` | social | 0.0% (0/971) | 0.0% (0/434) | 100.0% (140/140) | 99.3% (293/295) |
-| `indeed_search` | data | 0.0% (0/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/297) |
-| `glassdoor_reviews` | data | 0.0% (0/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/296) |
-| `trustpilot_page` | social | 0.0% (0/971) | 0.0% (0/434) | 0.0% (0/140) | 0.0% (0/296) |
-| `cloudflare_demo` | challenge | 0.0% (0/971) | 100.0% (434/434) | 100.0% (139/139) | 99.7% (296/297) |
-| `tls_peer_fingerprint` | challenge | 99.5% (966/971) | 99.5% (432/434) | 100.0% (138/138) | 99.3% (292/294) |
-| `dataforseo_blog` | data | 100.0% (971/971) | 100.0% (434/434) | 100.0% (138/138) | 99.7% (295/296) |
-| `mercado_livre` | geo | 100.0% (971/971) | 99.8% (433/434) | 99.3% (137/138) | 99.0% (291/294) |
-| `rakuten_jp` | geo | 100.0% (971/971) | 100.0% (434/434) | 100.0% (138/138) | 99.3% (294/296) |
+| `amazon_pdp` | commerce | 94.3% (916/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/296) |
+| `booking_search` | geo | 0.0% (0/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/295) |
+| `cloudflare_demo` | challenge | 0.0% (0/971) | 100.0% (440/440) | 100.0% (139/139) | 99.7% (296/297) |
+| `control_example` | control | 100.0% (971/971) | 100.0% (440/440) | 100.0% (140/140) | 99.3% (295/297) |
+| `control_httpbin` | control | 100.0% (971/971) | 100.0% (440/440) | 100.0% (140/140) | 99.7% (296/297) |
+| `control_wikipedia` | control | 100.0% (971/971) | 100.0% (440/440) | 99.3% (139/140) | 98.6% (291/295) |
+| `dataforseo_blog` | data | 100.0% (971/971) | 100.0% (440/440) | 100.0% (138/138) | 99.7% (295/296) |
+| `etsy_search` | commerce | 0.0% (0/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/298) |
+| `glassdoor_reviews` | data | 0.0% (0/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/296) |
+| `google_serp` | geo | 99.8% (969/971) | 100.0% (440/440) | 100.0% (140/140) | 94.9% (282/297) |
+| `idealista_search` | geo | 0.0% (0/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/296) |
+| `indeed_search` | data | 0.0% (0/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/297) |
+| `mercado_livre` | geo | 100.0% (971/971) | 99.8% (439/440) | 99.3% (137/138) | 99.0% (291/294) |
+| `nike_list` | commerce | 100.0% (971/971) | 99.8% (439/440) | 100.0% (140/140) | 99.3% (293/295) |
+| `rakuten_jp` | geo | 100.0% (971/971) | 100.0% (439/439) | 100.0% (138/138) | 99.3% (294/296) |
+| `reddit_thread` | social | 0.0% (0/971) | 0.0% (0/440) | 100.0% (140/140) | 99.3% (293/295) |
+| `tls_peer_fingerprint` | challenge | 99.5% (966/971) | 99.5% (438/440) | 100.0% (138/138) | 99.3% (292/294) |
+| `trustpilot_page` | social | 0.0% (0/971) | 0.0% (0/440) | 0.0% (0/140) | 0.0% (0/296) |
+| `walmart_search` | commerce | 100.0% (971/971) | 100.0% (440/440) | 100.0% (140/140) | 99.3% (295/297) |
+| `zillow_search` | data | 0.0% (0/971) | 0.2% (1/440) | 94.3% (132/140) | 57.8% (171/296) |
 
 ## What the table actually says
 
@@ -80,6 +80,7 @@ python3 scripts/analyze.py data            # writes summary.csv
 - Verdict heuristics are per target and deliberately conservative; a soft block that still returns HTML with a 200 will be scored `ok`.
 - Residential and mobile lost 5–12% of their scheduled requests to an exhausted balance. Denominator differences are the reason the sample sizes differ.
 - Providers are unnamed; swap in your own endpoint and the harness reproduces.
+- The `isp` leg was still running when this snapshot was taken (2 requests/target/round, ~6 minutes apart). Its row counts grow over time; rates in the table above are recomputed from the file in `data/`.
 
 ## License
 
